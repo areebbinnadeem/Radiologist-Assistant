@@ -1,0 +1,50 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment directories
+venv/
+.env/
+.radiologistassistant/
+
+# Conda environment files
+*.conda
+*.lock
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python packaging files
+*.egg-info/
+dist/
+build/
+
+# IDE/project-specific files
+.vscode/
+.idea/
+
+# Bytecode files
+*.class
+*.so
+
+# Output files
+*.out
+*.log
+*.csv
+*.h5
+
+# Sensitive configuration files
+.env
+*.key
