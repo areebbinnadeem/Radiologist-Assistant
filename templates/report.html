@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Report</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .container {
+      margin-top: 50px;
+      max-width: 600px;
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    }
+    .header-text {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 24px;
+      font-weight: bold;
+      color: #343a40;
+    }
+    .report-text {
+      background-color: #f0f0f0;
+      border-left: 5px solid #007bff;
+      padding: 15px;
+      border-radius: 5px;
+      font-family: 'Courier New', Courier, monospace;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2 class="header-text">Generated Report</h2>
+    <div class="report-text">
+      <strong>Report:</strong>
+      <p>{{ report }}</p>
+    </div>
+    <a href="{{ url_for('index') }}" class="btn btn-primary btn-block mt-3">Upload Another Image</a>
+  </div>
+</body>
+</html>

@@ -1,0 +1,2 @@
+model/r2gen_model_Bert.pth filter=lfs diff=lfs merge=lfs -text
+*.pth.gz filter=lfs diff=lfs merge=lfs -text
